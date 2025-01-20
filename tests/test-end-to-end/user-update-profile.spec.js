@@ -3,7 +3,7 @@ import login from "../helpers/login";
 import { navBar, profilePage } from "../helpers/menu";
 import { resetPage } from "../helpers/reset-page";
 
-test("User update their profile", async ({page}) => {
+test("Should update profile successfully", async ({page}) => {
     const email = 'beatrice@gmail.com';
     const password = 'test123';
     const username = "Beatrice"
