@@ -1,4 +1,4 @@
-import test, { expect } from "playwright/test";
+import { test, expect } from "playwright/test";
 import { navBar, profilePage } from "../helpers/menu";
 import { resetPage } from "../helpers/reset-page";
 import signUp from "../helpers/sign-up";
