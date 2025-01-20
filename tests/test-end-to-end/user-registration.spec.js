@@ -3,7 +3,7 @@ import signUp from "../helpers/sign-up";
 import { homePage, navBar } from "../helpers/menu";
 
 
-test("Register a new user on Conduit Realworld Example App", async ({page}) => {
+test("Should register a new user successfully", async ({page}) => {
     const username = `user_${Date.now()}`;
     const email = `test_${Date.now()}@example.com`;
     const password = 'password123';
