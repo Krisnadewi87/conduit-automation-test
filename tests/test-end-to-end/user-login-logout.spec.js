@@ -4,7 +4,7 @@ import { navBar } from "../helpers/menu";
 import logout from "../helpers/logout";
 
 
-test("Login and Logout on Conduit Realworld Example App", async ({page}) => {
+test("Should Login and Logout successfully", async ({page}) => {
     const email = process.env.EMAIL;
     const password = process.env.PASSWORD;
     const username = process.env.USER_NAME;

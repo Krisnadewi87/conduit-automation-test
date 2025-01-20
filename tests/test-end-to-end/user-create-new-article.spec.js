@@ -3,17 +3,16 @@ import login from "../helpers/login";
 import logout from "../helpers/logout";
 import { homePage, navBar, newArticle } from "../helpers/menu";
 
-const email = process.env.EMAIL;
-const password = process.env.PASSWORD;
+test("Should create a new article successfully", async ({page}) => {
 
-let testArticle = {
+    const email = process.env.EMAIL;
+    const password = process.env.PASSWORD;
+    const testArticle = {
     articleTitle: `Article_${Date.now()}`,
     articleDescription: 'This is the description.',
     articleBody: 'This is the article body. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis ultrices odio.',
     articleTags: 'test,automation,playwright',
 };
-
-test("Should create a new article successfully", async ({page}) => {
 
     // Verify login and navigate to the homepage
     await login(page)(email)(password);
