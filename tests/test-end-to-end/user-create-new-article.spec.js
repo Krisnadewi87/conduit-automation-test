@@ -1,11 +1,10 @@
 import { expect, test } from "@playwright/test";
 import login from "../helpers/login";
 import logout from "../helpers/logout";
-import { articlePage, navBar, newArticle } from "../helpers/menu";
+import { navBar, newArticle } from "../helpers/menu";
 
 const email = process.env.EMAIL;
 const password = process.env.PASSWORD;
-const baseURL = process.env.URL;
 
 let testArticle = {
     articleTitle: `Article_${Date.now()}`,
