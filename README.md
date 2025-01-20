@@ -33,12 +33,12 @@ Install the required Node.js dependencies:
 npm install
 ```
 
-### 3. Install Playwright Browsers
+### 3. Install Playwright
 
 Download the necessary browsers for Playwright:
 
 ```bash
-npx playwright install
+npm install playwright
 ```
 
 ### 4. Run Tests
