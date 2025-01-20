@@ -3,7 +3,6 @@ import login from "../helpers/login";
 import { navBar } from "../helpers/menu";
 import logout from "../helpers/logout";
 
-
 test("Should Login and Logout successfully", async ({page}) => {
     const email = process.env.EMAIL;
     const password = process.env.PASSWORD;

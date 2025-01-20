@@ -15,7 +15,7 @@ test("Should update profile successfully", async ({page}) => {
         password: password,
     };
 
-    // Verify login
+    // Verify signup
     await signUp(page)(username)(email)(password);
 
     // Verify Profile tab on the head navbar visible
