@@ -2,7 +2,7 @@ import { expect, test } from "playwright/test";
 import login from "../helpers/login";
 import { articlePage, homePage, navBar } from "../helpers/menu";
 
-test("Add a comment to an article", async ({page}) => {
+test("Should add a comment to an article successfully", async ({page}) => {
     const email = process.env.EMAIL;
     const password = process.env.PASSWORD;
     const username = process.env.USER_NAME;
