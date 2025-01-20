@@ -16,13 +16,13 @@ Before running this project, make sure you have the following installed:
 Clone the repository to your local machine:
 
 ```bash
-# git clone https://github.com/Onebyone-2024/ifb-qa.git
+git clone git@github.com:Krisnadewi87/conduit-automation-test.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd conduit-test-playwright
+cd conduit-automation-test
 ```
 
 ### 2. Install Dependencies
