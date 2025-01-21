@@ -32,6 +32,7 @@ export const newArticle = {
     ARTICLE_BODY: "//textarea[@name='body']",
     ARTICLE_TAGS: "//input[@name='tags']",
     PUBLISH_ARTICLE_BTN: "//button[@class='btn btn-lg pull-xs-right btn-primary']",
+    PROFILE_BANNER: ".banner .author",
 };
 
 
@@ -53,4 +54,6 @@ export const profilePage = {
     UPDATE_SETTING_BTN: "//button[@class='btn btn-lg btn-primary pull-xs-right']",
     UPDATED_USERNAME: ".user-info h4",
     UPDATED_BIO: ".user-info p",
+    FOLLOW_BTN: "//button[@class='btn btn-sm action-btn ']",
+
 };
