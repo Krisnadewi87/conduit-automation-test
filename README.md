@@ -38,7 +38,7 @@ npm install
 Download the necessary browsers for Playwright:
 
 ```bash
-npm install playwright
+npx install playwright
 ```
 
 ### 4. Run Tests
